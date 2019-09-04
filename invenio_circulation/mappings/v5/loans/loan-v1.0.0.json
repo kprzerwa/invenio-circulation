@@ -51,6 +51,14 @@
         "cancel_reason": {
           "type": "keyword"
         },
+         "delivery_method": {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "keyword"
+            }
+          }
+        },
         "_created": {
           "type": "date"
         },

@@ -162,3 +162,6 @@ CIRCULATION_LOAN_LINKS_FACTORY = loan_links_factory
 
 CIRCULATION_VIEWS_PERMISSIONS_FACTORY = views_permissions_factory
 """Permissions factory for circulation views to handle actions."""
+
+CIRCULATION_DELIVERY_METHODS = []
+"""Loan fulfill delivery methods."""
