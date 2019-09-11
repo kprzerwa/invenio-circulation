@@ -21,6 +21,7 @@ tests_require = [
     'isort>=4.3.11',
     'invenio-app>=1.0.4',
     'invenio-jsonschemas>=1.0.0',
+    'invenio-records-rest>=1.6.0',
     'mock>=1.3.0',
     'pydocstyle>=1.0.0',
     'pytest-cache>=1.0',
@@ -81,10 +82,11 @@ install_requires = [
     'invenio-logging>=1.0.0',
     'invenio-pidstore>=1.0.0',
     'invenio-records>=1.0.0',
-    'invenio-records-rest>=1.1.2',
-    'invenio-rest>=1.0.0',
+    'invenio-records-rest>=1.6.0',
+    'invenio-rest>=1.1.1',
     'invenio-jsonschemas>=1.0.0',
     'pytz>=2018.5',
+    'webargs>=5.5.0',
 ]
 
 packages = find_packages()
