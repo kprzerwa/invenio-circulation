@@ -7,6 +7,11 @@
 Changes
 =======
 
+Version 1.0.0a25 (released 2020-06-18)
+
+- adds config CIRCULATION_LOAN_LOCATIONS_VALIDATION to allow validation
+  of loan locations
+
 Version 1.0.0a24 (released 2020-05-25)
 
 - fixes the way the default module configuration is defined to allow
