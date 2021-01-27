@@ -16,10 +16,12 @@ readme = open('README.rst').read()
 history = open('CHANGES.rst').read()
 
 tests_require = [
+    "mock>=2.0.0",
+    "pytest-invenio>=1.4.0,<1.5.0",
+    "pytest-mock>=1.6.0",
+    "celery[pytest]>=4.4.0,<5.1",  # Temporary, until fixed in `pytest-invenio`
     'invenio-app>=1.2.3',
     'invenio-jsonschemas>=1.0.1',
-    'mock>=1.3.0',
-    'pytest-invenio>=1.4.0',
 ]
 
 invenio_search_version = '1.2.3'
@@ -69,6 +71,8 @@ install_requires = [
     'invenio-pidstore>=1.1.0',
     'invenio-records-rest>=1.6.4',
     'invenio-jsonschemas>=1.0.1',
+    # temporarily, until fixed compatibility
+    'invenio-records>=1.3.0,<1.4.0',
 ]
 
 packages = find_packages()
